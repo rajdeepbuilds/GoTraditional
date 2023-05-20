@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    
+    align-items: center;
+    background-color: #000000;
+    height: 100px;
+}
+
+.logo {
+    float: left;
+    justify-content: flex-start;
+    margin-right: 20px;
+    height: 120px;
+    margin-left: 20px;
+    
+}
+
+.navbar {
+    list-style-type: none;
+    margin-right: 200px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar li:first-child {
+    margin-left: auto;
+}
+
+.navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+
+
+.navbar li a:hover {
+    height: 100px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+.title {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.photo img {
+    position:absolute;
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.photo-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 10px;
+}
+
+.photo-title {
+    font-size: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.photo-price {
+    font-size: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 50px;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+   
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 60px;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+
+.footerbottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
